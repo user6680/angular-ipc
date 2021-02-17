@@ -14,7 +14,8 @@ function createWindow() {
     frame: false,
     fullscreen: false,
     webPreferences: {
-      nodeIntegration: true
+      nodeIntegration: true,
+      enableRemoteModule: true
     }
   })
   mainWindow.maximize();
